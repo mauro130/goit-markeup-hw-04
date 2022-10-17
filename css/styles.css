@@ -33,8 +33,6 @@ body {
   font-family: var(--font-family-primary);
   font-style: normal;
   color: var(--font-color-primary);
-  max-width: 1600px;
-  max-height: 2410px;
   margin-left: auto;
   margin-right: auto;
 }
