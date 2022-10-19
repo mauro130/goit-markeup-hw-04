@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
     <title>goit-markeup-hw-04</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/modern-normalize@1.1.0/modern-normalize.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -46,8 +52,8 @@
       </section>
     </header>
     <main>
-      <section class="background-banner">
-        <div class="container">
+      <section class="background-banner container">
+        <div>
           <h1 class="bg-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
           <button id="btn-service">Solicite nuestro servicio</button>
         </div>
@@ -107,13 +113,21 @@
       </section>
       <section class="work-dising container">
         <h1>A qué nos dedicamos</h1>
-        <img class="img-dising" src="./images/work_areas1.jpg" alt="" />
-        <img class="img-dising" src="./images/work_areas2.jpg" alt="" />
-        <img class="img-dising" src="./images/work_areas3.jpg" alt="" />
+        <ul>
+          <li>
+            <img class="img-dising" src="./images/work_areas1.jpg" alt="" />
+          </li>
+          <li>
+            <img class="img-dising" src="./images/work_areas2.jpg" alt="" />
+          </li>
+          <li>
+            <img class="img-dising" src="./images/work_areas3.jpg" alt="" />
+          </li>
+        </ul>
       </section>
       <section class="work-team container">
         <h1>Nuesto Equipo</h1>
-        <ul >
+        <ul>
           <li class="work-team-list">
             <img
               class="picture-team"
@@ -277,6 +291,53 @@
                 </li>
               </ul>
             </div>
+          </li>
+        </ul>
+      </section>
+      <section class="container">
+        <h1 class="client-icon-title">Clientes Regulares</h1>
+        <ul class="client-icon-list">
+          <li>
+            <a class="client-icon-border" href="#">
+              <svg class="client-icon-img">
+                <use href="./images/icons.svg#icon-yago"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="client-icon-border" href="#">
+              <svg class="client-icon-img">
+                <use href="./images/icons.svg#icon-company"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="client-icon-border" href="#">
+              <svg class="client-icon-img">
+                <use href="./images/icons.svg#icon-company2"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="client-icon-border" href="#">
+              <svg class="client-icon-img">
+                <use href="./images/icons.svg#icon-foster"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="client-icon-border" href="#">
+              <svg class="client-icon-img">
+                <use href="./images/icons.svg#icon-brand"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a class="client-icon-border" href="#">
+              <svg class="client-icon-img">
+                <use href="./images/icons.svg#icon-tag"></use>
+              </svg>
+            </a>
           </li>
         </ul>
       </section>
