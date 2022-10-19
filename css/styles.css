@@ -3,7 +3,6 @@
 
 :root {
   --background-color-principal: #ffffff;
-  --img-banner-primary: ./im;
   --font-family-primary: "Roboto", sans-serif;
   --font-family-secundary: "Raleway", sans-serif;
   --font-color-principal: #212121;
@@ -28,14 +27,11 @@ a {
 ul {
   display: flex;
   flex-direction: row;
-  padding: 0;
 }
 body {
   font-family: var(--font-family-primary);
   font-style: normal;
   color: var(--font-color-primary);
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #nav-options {
@@ -60,7 +56,7 @@ body {
   color: var(--main-color-logo);
 }
 
-.link:hover {
+.link:hover{
   color: var(--color-hover-link);
   fill: var(--color-hover-link);
 }
@@ -69,8 +65,6 @@ body {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .section {
@@ -142,7 +136,8 @@ body {
   margin: 0 auto;
 }
 
-#btn-service:hover {
+#btn-service:hover,
+#btn-service:focus {
   background: var(--background-color-principal);
   color: #2196f3;
 }
@@ -236,7 +231,8 @@ body {
   background: rgba(255, 255, 255, 0.1);
   fill: #757575;
 }
-.work-social-network:hover {
+.work-social-network:hover,
+.work-social-network:focus {
   background-color: var(--color-hover-link);
   fill: #ffffff;
 }
@@ -316,8 +312,14 @@ body {
   fill: #ffffff;
 }
 
-.footer-border-social-network:hover {
+.footer-border-social-network:hover,
+.footer-border-social-network:focus {
+  cursor: pointer;
   background-color: var(--color-hover-link);
+}
+
+.datos-contact > a:hover{
+color: #2196f3;
 }
 
 /*programacion de botones paagina portafolio*/
@@ -346,7 +348,8 @@ body {
   margin-right: 8px;
 }
 
-.boton-filter:hover {
+.boton-filter:hover,
+.boton-filter:focus {
   cursor: pointer;
   background: var(--color-hover-link);
   color: var(--font-color-text-hover);
@@ -422,7 +425,9 @@ body {
   margin-right: 30px;
 }
 
-.client-icon-border:hover {
+.client-icon-border:hover,
+.client-icon-border:focus {
+  cursor: pointer;
   border-color: var(--color-hover-link);
   color: var(--color-hover-link);
 }
